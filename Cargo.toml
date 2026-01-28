@@ -1,0 +1,14 @@
+[package]
+name = "sbpf-unchecked-entrypoint"
+version = "0.0.1"
+edition = "2021"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+
+[dev-dependencies]
+mollusk-svm = "0.10.1"
+mollusk-svm-result = "0.10.1"
+solana-sdk = "3.0.0"
