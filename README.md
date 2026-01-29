@@ -30,7 +30,7 @@ unchecked_entrypoint!(entrypoint);
 
 ## Usage
 Demonstration of a theoretical optimized oracle program.
-```
+```rust
 // Memory layout assumes signer is 0 size system account
 // and that the oracle PDA is of size 8
 // See: https://sbpf.xyz/
