@@ -5,7 +5,7 @@ This crate uses pinocchio's standard entrypoint as the underlying fallback check
 
 ## Macros
 
-```
+```rust
 // Invoked unchecked_handler if is_unchecked evaluates to true, otherwise checked_entrypoint
 // checked_handler:   fn (&Address, &[AccountView], &[u8])
 // is_unchecked:      fn *mut u8 -> bool
